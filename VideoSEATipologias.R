@@ -85,5 +85,5 @@ grafico_q <- top_tipologias_q  %>%  ggplot(aes(x = Proyectos_Acumulados,y = desc
 # - Además agregamos frames en el inicio y al final del video para pausarlo.
 # - El video se genera en mp4 en el directorio que estemos trabajando.
 df <- animate(grafico_q, renderer = av_renderer('AnimacionSEATipologias.mp4'), 
-              width = 1280, height = 720, res = 104, fps = 50,duration = 38, end_pause = 200,start_pause = 20)
+              width = 1280, height = 720, res = 104, fps = 50,duration = 42, end_pause = 200,start_pause = 20)
 utils::browseURL('AnimacionSEATipologias.mp4')
