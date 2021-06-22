@@ -87,3 +87,4 @@ grafico_q <- top_tipologias_q  %>%  ggplot(aes(x = Proyectos_Acumulados,y = desc
 df <- animate(grafico_q, renderer = av_renderer('AnimacionSEATipologias.mp4'), 
               width = 1280, height = 720, res = 104, fps = 50,duration = 42, end_pause = 200,start_pause = 20)
 utils::browseURL('AnimacionSEATipologias.mp4')
+  
