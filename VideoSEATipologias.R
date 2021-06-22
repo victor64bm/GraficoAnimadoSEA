@@ -67,7 +67,7 @@ grafico_q <- top_tipologias_q  %>%  ggplot(aes(x = Proyectos_Acumulados,y = desc
                 hjust=0), color = "gray30")  +
   theme_fivethirtyeight() +
   transition_states(Año_Quartil,wrap = FALSE) + 
-  labs(title = 'Top 10 de Tipologiás con más proyectos ingresados al {closest_state}') +
+  labs(title = 'Top 10 de Tipologías con más proyectos ingresados al {closest_state}') +
   theme(panel.grid = element_blank(), 
         legend.position = "none",
         axis.title = element_text(size = 12),
