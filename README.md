@@ -5,6 +5,3 @@ En este repositorio se presenta un script elaborado en R para la creación de un
 La visualización fue hecha utilizando las librerías [ggplot](https://ggplot2.tidyverse.org/) y [gganimate](https://gganimate.com/), las cuales presentan una gran versatilidad.
 
 Para definir el nombre de las tipologías, se usaron nombres sencillos basados en las definiciones que aparecen en la página del SEA. Finalmente, cabe mencionar que la música de fondo es de la librería de audio de Youtube. El video se encuentra en [este enlace de Youtube](https://youtu.be/PNQMc9sX9wk). La música de fondo es generada a través de la librería de audio de Youtube.
-
-
-[![Mira el video aquí](https://www.youtube.com/watch?v=PNQMc9sX9wk)](https://www.youtube.com/watch?v=PNQMc9sX9wk)
